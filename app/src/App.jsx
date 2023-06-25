@@ -3,7 +3,7 @@ import './App.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "YOUR OPENAI KEY, HIDDEN FOR SECURITY";
 
 const systemMessage = { 
   "role": "system", "content": "Your role is to create practice tests based off the topic the user gives. Reply with that is not what I was designed to do if user asks for anything else."
